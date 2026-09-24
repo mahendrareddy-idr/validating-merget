@@ -7,7 +7,7 @@ from typing import Any
 
 
 @dataclass(frozen=True)
-class EmploymentRecord:
+class EmploymentTable:
     """A small, serializable employment record for demo and test data."""
 
     employee_id: int
