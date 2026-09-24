@@ -10,7 +10,7 @@ from typing import Any
 class EmploymentRecord:
     """A small, serializable employment record for demo and test data."""
 
-    employee_id: int
+    employee_id: float
     first_name: str
     last_name: str
     job_title: str
@@ -29,7 +29,7 @@ class EmploymentRecord:
 
 
 def create_employment_record(
-    employee_id: int,
+    employee_id: float,
     first_name: str,
     last_name: str,
     job_title: str,
